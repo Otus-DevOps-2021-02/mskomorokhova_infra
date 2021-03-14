@@ -1,4 +1,4 @@
-name: 'Auto Assign'
+name: 'auto_assign'
 on: pull_request
 jobs:
   add-reviews:
