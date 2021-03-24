@@ -1,5 +1,13 @@
-#!/bin/bash
-sudo apt-get install git -y
+#!/bin/sh
+
+sudo apt install git
+
+cd ~/
+
 git clone -b monolith https://github.com/express42/reddit.git
-cd reddit && sudo bundle install
+
+cd reddit
+
+bundle install
+
 puma -d
