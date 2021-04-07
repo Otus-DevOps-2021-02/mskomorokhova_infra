@@ -1,0 +1,8 @@
+cloud_id="terraform1"
+folder_id="terraform2"
+zone="ru-central1-a"
+service_account_key_file="terraform3"
+image_id="terraform4"
+subnet_id="terraform5"
+public_key_path="terraform6"
+private_key="terraform7"
