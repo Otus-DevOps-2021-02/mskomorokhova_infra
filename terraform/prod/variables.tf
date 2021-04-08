@@ -19,13 +19,21 @@ variable image_id {
 }
 variable subnet_id {
   # Описание переменной
-  description = "net"
+  description = "Subnet"
 }
 variable public_key_path {
   # Описание переменной
-  description = "key_pub"
+  description = "key"
 }
 variable private_key {
   # Описание переменной
   description = "key"
+}
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default     = "reddit-base-db"
+}
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default     = "reddit-base-app"
 }
