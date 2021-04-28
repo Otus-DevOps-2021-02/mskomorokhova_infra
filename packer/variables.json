@@ -1,0 +1,6 @@
+{
+    "folder_id": "b1gj2l9eqi60c1405a6e",
+    "source_image_family": "ubuntu-1604-lts",
+    "service_account_key_file": "packer/key.json",
+    "platform_id": "standard-v1"
+}
