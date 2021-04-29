@@ -1,6 +1,6 @@
 {
     "folder_id": "packertest1",
     "source_image_family": "packertest2",
-    "service_account_key_file": "key.json",
+    "service_account_key_file": "packer/key.json",
     "platform_id": "packertest3"
 }
